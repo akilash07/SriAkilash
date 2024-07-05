@@ -71,6 +71,7 @@ def live_face_recognition(known_face_path):
             name = "Unknown"
 
             if results[0]:
+                
                 name = "Known Person"
 
             # Draw a rectangle around the face
